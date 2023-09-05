@@ -1,0 +1,9 @@
+CREATE TABLE Users (
+    user_id INT AUTO_INCREMENT PRIMARY KEY,
+    NAME VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL UNIQUE,
+    phone VARCHAR(15),
+    credits DECIMAL(10, 2) DEFAULT 0.00,
+    ROLE ENUM('Admin', 'Manager', 'Member') NOT NULL
+);
+SELECT * FROM Users;
