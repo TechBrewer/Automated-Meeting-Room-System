@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.photo-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 100%;
+    background: url('https://www.westend61.de/images/0001469679pw/business-people-video-conferencing-in-conference-room-meeting-CAIF29744.jpg') no-repeat center center fixed;
+    
+    background-size: cover;
+
+}
+
+.login-form {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40%;
+    height: 100%;
+    background: rgba(241, 231, 201, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.btn{
+    background-color: #1573e5; /* Green */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Cantata One', serif;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Gloock', serif;
+}
+
+.form-container {
+    text-align: center;
+    border: 2px solid black;
+    padding: 100px;
+    border-radius: 15px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 80px;
+    font-family: 'Cantata One', serif;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Gloock', serif;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    box-shadow: 0 4px 8px rgba(246, 0, 0, 0.2);
+    background-color: rgb(243, 219, 154);
+    color:orange;
+}

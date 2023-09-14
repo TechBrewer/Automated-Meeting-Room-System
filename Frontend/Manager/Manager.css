@@ -1,0 +1,84 @@
+/* Add your CSS styles here */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color:#ccc
+}
+
+.manager-info {
+    background-color:rgb(65, 65, 64);
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    flex: wrap;   
+}
+.man_info{
+    color: #fff;
+}
+.image{
+    padding-left:800px;
+    position: relative;
+    border-radius: 50%;
+}
+.man_photo{
+    border-radius: 50% ;
+    width: 220px;
+    height: 220px;
+}
+.card-img-top{
+    background-size: cover;
+    height: 200px;
+    width: 288px;
+    border-radius: 5px;
+
+}
+.card{
+    padding-top: 10px;
+    padding: 20px;
+    height: 400px;
+    width: 120px;
+}
+.h2{
+    text-align: center;
+    font-size: 32px;
+
+}
+
+
+.meeting-list {
+    border: 1px solid #ccc;
+    padding: 30px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    background-color: rgb(65, 65, 64);
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat; 
+    height: 500px;
+    /* padding: 10px; */
+}
+
+#organize-meeting-btn {
+    background-color: #007bff;
+    
+    color: #fff;
+    padding: 13px 25px;
+    margin-left: 700px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#organize-meeting-btn:hover {
+    background-color: #0056b3;
+}

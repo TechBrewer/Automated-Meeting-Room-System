@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organize Meeting</title>
+    <link rel="icon" href="../Home Page/favicon-32x32.png" type="image/x-icon"> 
+    <!-- Add Bootstrap CSS link -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Add custom CSS for styling -->
+    <link rel="stylesheet" href="mstyles.css">
+    <style>
+        /* CSS to set background image for card-body */
+        .card-body {
+            background-image: url('your-image-url.jpg');
+            background-size: cover; /* Adjust the background size as needed */
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    </style>
+</head>
+<body style="background-image: url('https://png.pngtree.com/background/20230525/original/pngtree-hd-wallpaper-of-an-office-in-an-abstract-anime-picture-image_2728867.jpg');">
+    <div class="container mt-5">
+        <div class="card">
+            <div class="card-header">
+                <!-- Add the logo here -->
+                <img src="new_logo.png" alt="Logo" style="float: right; width: 200px; height: 50px;"> 
+                <h1>Organize Meeting</h1>
+            </div>
+            <div class="card-body">
+                <form id="meetingForm">
+                    <div class="form-group">
+                        <label for="title">Title:</label>
+                        <input type="text" class="form-control" id="title" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="meetingDate">Meeting Date:</label>
+                        <input type="date" class="form-control" id="meetingDate" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="startTime">Start Time:</label>
+                        <input type="time" class="form-control" id="startTime" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="duration">Duration (in hours):</label>
+                        <input type="number" class="form-control" id="duration" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="meetingType">Meeting Type:</label>
+                        <select class="form-control" id="meetingType" required>
+                            <option value="1">Business</option>
+                            <option value="2">Conference</option>
+                            <!-- Add more meeting types as needed -->
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="searchMembers">Search and Add Members:</label>
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="searchMembers" placeholder="Search members">
+                            <div class="input-group-append">
+                                <button class="btn btn-primary" type="button" onclick="searchMembers()">Search</button>
+                            </div>
+                        </div>
+                        <ul class="list-group mt-3" id="searchResults">
+                            <!-- Search results will be displayed here -->
+                        </ul>
+                        <!-- Selected members can be displayed here -->
+                        <div class="selected-members mt-3" id="selectedMembers">
+                            <h5>Selected Members:</h5>
+                            <ul class="list-group" id="selectedMembersList">
+                                <!-- Selected members will be displayed here -->
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="form-group">
+                        <label for="selectRoom">Select Meeting Room:</label>
+                        <select class="form-control" id="selectRoom">
+                            <option value="room1">Meeting Room 1</option>
+                            <option value="room2">Meeting Room 2</option>
+                            <option value="room3">Meeting Room 3</option>
+                            <!-- Add more meeting rooms as needed -->
+                        </select>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Save</button>
+                    <button type="button" class="btn btn-secondary">Cancel</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add Bootstrap JS and jQuery scripts at the end of the body -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Add custom JavaScript for validation and credit deduction -->
+    <script src="mscript.js"></script>
+</body>
+</html>

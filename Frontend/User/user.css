@@ -1,0 +1,23 @@
+.heading-class{
+    
+    padding : 20px;
+    background-image: url("office.jpg");
+    height : 300px;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(10px);
+    width: 100%;
+  
+}
+h1{
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 30px;
+    color: rgb(68, 7, 75);
+    font-size: 100px;
+    
+}
+.table{
+    width:100%;
+    
+}

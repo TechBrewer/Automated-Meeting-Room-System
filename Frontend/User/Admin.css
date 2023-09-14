@@ -1,0 +1,78 @@
+/* Add your CSS styles here */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://b2bhq.com.au/wp-content/uploads/2021/05/importance-of-face-to-face-meetings-3-2048x1152.jpg");
+}
+
+.admin-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.admin-info {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */
+}
+
+
+
+.meeting-room-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.meeting-room-list li {
+    margin: 10px 0;
+}
+
+.create-room-link {
+    text-align: center;
+}
+
+.create-room-link a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.create-room-link a:hover {
+    background-color: #4CAF50;
+}
+
+.card-header{
+    background-color: #765827;
+    color: white;
+}
+
+.card{
+    width: 800px;
+}
+
+.create-btn{
+    margin: 15px 280px;
+    background-color: #765827;
+}
+
+.create-btn:hover{
+    background-image: linear-gradient( 68.3deg,  rgb(99, 59, 13) 0.4%, rgb(157, 52, 22) 100.2% );
+    /* background-color: #765827; */
+}
+
+.card{
+    /* background-image: radial-gradient( circle 369px at -2.9% 12.9%,  rgba(247,234,163,1) 0%, rgba(236,180,238,0.56) 46.4%, rgba(163,203,247,1) 100.7% ); */
+    background-image: linear-gradient( 174.2deg,  rgba(255,244,228,1) 7.1%, rgba(240,246,238,1) 67.4% );
+}
+
+.list-group{
+    border-radius: 15px;
+}

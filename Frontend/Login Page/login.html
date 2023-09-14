@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cantata+One&family=DM+Serif+Display&family=Gloock&family=Lato:wght@400;700&family=Sigmar&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Login Page</title>
+    <link rel="icon" href="../Home Page/favicon-32x32.png" type="image/x-icon"> 
+    <link rel="stylesheet" href="loginStyle.css">
+</head>
+<body>
+    <div class="container">
+        <div class="photo-background"></div>
+        <div class="login-form">
+            <div class="form-container">
+                <h1>Login</h1>
+                <form method="post">
+                    <input  type="text" name="username" class="form-control" id="user-id" placeholder="Username" required>
+                    <br/>
+                    <br/>
+                    <input type="text" class="form-control" id="email" placeholder="Email" name="email" required>
+                    <br/>
+                    <br/>
+                    <button type="button" class="btn" onclick="login()">Submit</button>
+                    <script src="loginJS.js"> </script>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="loginJS.js"></script>
+</body>
+</html>

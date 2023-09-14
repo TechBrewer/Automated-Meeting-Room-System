@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+    <user>
+        <sno>1</sno>
+        <Name>Harsh Gupta</Name>
+        <Email>harsh.gupta@example.com</Email>
+        <Phone>9087651234</Phone>
+        <Role>Manager</Role>
+    </user>
+    <user>
+        <sno>2</sno>
+        <Name>Priti Karkare</Name>
+        <Email>priti.karkare@example.com</Email>
+        <Phone>9876543210</Phone>
+        <Role>Manager</Role>
+    </user>
+     <user>
+        <sno>3</sno>
+        <Name>Mohit Raina</Name>
+        <Email>mohit.raina@example.com</Email>
+        <Phone>9873543210</Phone>
+        <Role>Member</Role>
+    </user>
+     <user>
+        <sno>4</sno>
+        <Name>Priya Sinha</Name>
+        <Email>priya.sinha@example.com</Email>
+        <Phone>9823543210</Phone>
+        <Role>Admin</Role>
+    </user>
+     <user>
+        <sno>5</sno>
+        <Name>Akshat Dubey</Name>
+        <Email>akshat.dubey@example.com</Email>
+        <Phone>8879543217</Phone>
+        <Role>Member</Role>
+    </user>
+     <user>
+        <sno>6</sno>
+        <Name>Sneha Patra</Name>
+        <Email>sneha.patra@example.com</Email>
+        <Phone>9876903212</Phone>
+        <Role>Member</Role>
+    </user>
+    <!-- You can add more user entries here -->
+</users>
